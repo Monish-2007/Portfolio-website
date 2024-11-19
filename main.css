@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: black;
+}
+.home {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./image/hdsoup.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+.container1 {
+    display: flex;
+    border-bottom: 3px solid orangered;
+    padding-bottom: 7px;
+}
+.head span {
+    color: orangered;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 40px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 40px;
+}
+
+.list ul li {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.list ul li a{
+    margin-left: 45px;
+    color: orangered;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.list ul li a:hover {
+    font-size: 32px;
+    border-bottom: 2px solid orangered;
+    color: white;
+}
+
+.list ul li a:target {
+    border-bottom: 2px solid orangered;
+    columns: white;
+    font-size: 32px;
+}
+.signup a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    color: orangered;
+    display: inline-block;
+    padding: 10px 25px 10px 25px;
+    border: 2px solid orangered;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: 0.5s ease-in-out;
+}
+
+.signup a:hover {
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: white;
+    border-color: white;    
+    background: linear-gradient(
+        to bottom right,
+         transparent,
+        orangered 
+    );
+}
+
+
+
+.social {
+    margin-left: 55px;
+    display: flex;
+    width: 300px;
+    background-color: 200px 200px;
+}
+
+.social a {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid 0px;
+    border-radius: 8px;
+}
+.social .insta a{
+    margin-left: 20px;
+    margin-top: 12px;
+    color: white;
+    font-size: 30px;
+    transition-duration: 0.5s;
+    
+}
+
+.social .insta a:hover {
+    background: linear-gradient(
+        to right bottom,
+        rgb(255, 0, 85),
+        rgb(229, 255, 0)
+    );
+}
+
+.social .face a{
+    margin-left: 20px;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+.social .face a:hover {
+    background: linear-gradient(
+        to right bottom,
+        rgb(25, 0, 255),
+        rgb(255, 255, 255)
+    );
+}
+
+.social .twitter a{
+    margin-left: 20px;
+    margin-top: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+.social .twitter a:hover {
+    background-color: white;
+    color: rgb(0, 110, 255);
+}
+
+.social .whats a {
+    margin-left: 20px;
+    margin-top: 15px;
+    color: white;
+    font-size: 30px;
+}
+
+.social .whats a:hover {
+    color: rgb(52, 253, 2);
+    background-color: white;
+}
+
+.container2  h1{
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.container2 h3 {
+    margin-top: 80px;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-style: normal;
+    font-size: 35px;
+    text-align: center;
+}
+
+.container2 h4 {
+    margin-top: 15px;
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.container2 img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: -25px;
+    margin-left: 45%;
+}
+
+.explore a {
+    text-decoration: none;
+    color: orangered;
+    border: 2px solid orangered;
+    padding: 5px 15px 5px 15px;
+    font-family: 'arial black';
+    font-size: 18px;
+    transition: all 0.5s ease;
+}
+
+.explore a:hover {
+    font-size: 20px;
+    color: white;
+}
+
+.about a {
+    text-decoration: none;
+    color: orangered;
+    border: 2px solid orangered;
+    padding: 5px 15px 5px 15px;
+    font-family: 'arial black';
+    font-size: 18px;
+    margin-left: 30px;
+    transition: all 0.5s ease;
+}
+
+.about a:hover {
+    font-size: 20px;
+    color: white;
+}
+
+.key {
+    display: flex;
+    width: 100vw;
+    justify-content:center;
+    margin-top: 20px;
+}
+

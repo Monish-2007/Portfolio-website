@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: black;
+}
+.home {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/image/hdsoup.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+.container1 {
+    display: flex;
+    border-bottom: 3px solid orangered;
+    padding-bottom: 7px;
+}
+.head span {
+    color: orangered;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 40px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 40px;
+}
+
+.list ul li {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.list ul li a{
+    margin-left: 45px;
+    color: orangered;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.list ul li a:hover {
+    font-size: 32px;
+    border-bottom: 2px solid orangered;
+    color: white;
+}
+
+.list ul li a:target {
+    border-bottom: 2px solid orangered;
+    columns: white;
+    font-size: 32px;
+}
+.signup a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    color: orangered;
+    display: inline-block;
+    padding: 10px 25px 10px 25px;
+    border: 2px solid orangered;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: 0.5s ease-in-out;
+}
+
+.signup a:hover {
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: white;
+    border-color: white;    
+    background: linear-gradient(
+        to bottom right,
+         transparent,
+        orangered 
+    );
+}
+
+
+
+.social {
+    margin-left: 55px;
+    display: flex;
+    width: 300px;
+    background-color: 200px 200px;
+}
+
+.social a {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid 0px;
+    border-radius: 8px;
+}
+.social .insta a{
+    margin-left: 20px;
+    margin-top: 12px;
+    color: white;
+    font-size: 30px;
+    transition-duration: 0.5s;
+    
+}
+
+.social .insta a:hover {
+    background: linear-gradient(
+        to right bottom,
+        rgb(255, 0, 85),
+        rgb(229, 255, 0)
+    );
+}
+
+.social .face a{
+    margin-left: 20px;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+.social .face a:hover {
+    background: linear-gradient(
+        to right bottom,
+        rgb(25, 0, 255),
+        rgb(255, 255, 255)
+    );
+}
+
+.social .twitter a{
+    margin-left: 20px;
+    margin-top: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+.social .twitter a:hover {
+    background-color: white;
+    color: rgb(0, 110, 255);
+}
+
+.social .whats a {
+    margin-left: 20px;
+    margin-top: 15px;
+    color: white;
+    font-size: 30px;
+}
+
+.social .whats a:hover {
+    color: rgb(52, 253, 2);
+    background-color: white;
+}
